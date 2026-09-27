@@ -1,0 +1,7 @@
+interface:
+  display_name: "剪映 TikTok 三版混剪"
+  short_description: "参考视频拆解、三版混剪草稿与发布数据复盘工作流"
+  default_prompt: "使用 $jianying-tiktok-mixcut 根据参考视频和分类素材库生成三版剪映草稿，保存但不导出。"
+
+policy:
+  allow_implicit_invocation: true
