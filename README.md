@@ -21,11 +21,13 @@
 
 ## 安装
 
-将整个目录复制到 Codex skills 目录：
+从本仓库直接安装到 Codex skills 目录：
 
 ```bash
-cp -R jianying-tiktok-mixcut ~/.codex/skills/
+git clone https://github.com/ecomxin666-tech/XINOK.git ~/.codex/skills/jianying-tiktok-mixcut
 ```
+
+私有仓库需要先在终端配置 GitHub 登录；也可以下载 ZIP 后，将解压目录重命名为 `jianying-tiktok-mixcut` 并放入 `~/.codex/skills/`。
 
 重新启动 Codex 后，可以使用：
 
@@ -70,4 +72,3 @@ jianying-tiktok-mixcut/
 ## License
 
 MIT
-
