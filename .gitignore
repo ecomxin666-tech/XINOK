@@ -1,0 +1,32 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# Local plans and generated reports
+plan.json
+*.local.json
+outputs/
+work/
+tmp/
+
+# Never publish real media or JianYing drafts
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.m4a
+*.mp3
+*.wav
+*.aac
+*.jpg
+*.jpeg
+*.png
+*.webp
+drafts/
+本地素材/
+
