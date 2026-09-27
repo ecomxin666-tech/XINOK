@@ -1,0 +1,91 @@
+{
+  "reference_video": "/Volumes/Shared/Category/reference/reference-video.mp4",
+  "drafts_root": "/Users/username/Movies/JianyingPro/User Data/Projects/com.lveditor.draft",
+  "output_dir": "./outputs",
+  "width": 1080,
+  "height": 1920,
+  "duration": 30.0,
+  "subtitles": [
+    {
+      "start": 0.0,
+      "end": 3.0,
+      "text": "Original-language hook"
+    },
+    {
+      "start": 3.0,
+      "end": 8.0,
+      "text": "Original-language problem statement"
+    }
+  ],
+  "variants": [
+    {
+      "name": "Category_Mixcut_01_Hook",
+      "theme": "Test a stronger opening visual",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 3.0,
+          "source": "/Volumes/Shared/Category/1.Hooks/hook-01.mp4",
+          "source_start": 1.0,
+          "origin": "素材库"
+        },
+        {
+          "start": 3.0,
+          "end": 30.0,
+          "source": "reference",
+          "origin": "参考视频"
+        }
+      ]
+    },
+    {
+      "name": "Category_Mixcut_02_Demo",
+      "theme": "Test product-use visuals",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 12.0,
+          "source": "reference",
+          "origin": "参考视频"
+        },
+        {
+          "start": 12.0,
+          "end": 20.0,
+          "source": "/Volumes/Shared/Category/4.Demo/demo-01.mp4",
+          "source_start": 2.0,
+          "origin": "素材库"
+        },
+        {
+          "start": 20.0,
+          "end": 30.0,
+          "source": "reference",
+          "origin": "参考视频"
+        }
+      ]
+    },
+    {
+      "name": "Category_Mixcut_03_Product",
+      "theme": "Test product-detail visuals",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 9.0,
+          "source": "reference",
+          "origin": "参考视频"
+        },
+        {
+          "start": 9.0,
+          "end": 14.0,
+          "source": "/Volumes/Shared/Category/3.Product/product-01.mp4",
+          "source_start": 0.5,
+          "origin": "素材库"
+        },
+        {
+          "start": 14.0,
+          "end": 30.0,
+          "source": "reference",
+          "origin": "参考视频"
+        }
+      ]
+    }
+  ]
+}
