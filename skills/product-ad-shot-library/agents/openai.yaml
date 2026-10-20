@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品广告分镜素材库"
+  short_description: "把产品成片拆成可复用镜头，按部位与用途分类，复核混合段并筛选开头候选"
+  default_prompt: "使用 $product-ad-shot-library，按产品用途拆解我提供的成片，建立可复用的分镜素材库，并区分需二剪片段和黄金开头待测候选。"
